@@ -7,3 +7,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+.ht {
+    font-size: small;
+    display: flex;
+}
+
+.text {
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
