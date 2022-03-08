@@ -1,23 +1,64 @@
 /*STYLES*/
 
-
+* {
+    background-color: #261E1B;
+    box-sizing: border-box;
+}
 
 
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .ht {
     font-size: small;
     display: flex;
+    color: #C4DDEB;
 }
 
 .text {
     text-decoration: none;
+    display: flex;
+    gap: 24px;
+    
+
 
 }
 
 a {
     text-decoration: none;
+    color: #C4DDEB;
 }
+
+.latestg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latep {
+    text-align: start;
+}
+
+.slideshow-container {
+    display: flex;
+}
+
+.slides {
+    display: flex;
+}
+  
+.top {
+    display: flex;
+}
+
+.Albums {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containq {
+    display: flex;
+}
+
