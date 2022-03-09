@@ -1,8 +1,9 @@
 /*STYLES*/
 
-* {
+body {
     background-color: #261E1B;
     box-sizing: border-box;
+    margin: 50;
 }
 
 
@@ -35,20 +36,16 @@ a {
 .latestg {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .latep {
     text-align: start;
+    align-self: flex-start;
 }
 
-.slideshow-container {
-    display: flex;
-}
 
-.slides {
-    display: flex;
-}
-  
 .top {
     display: flex;
 }
@@ -60,5 +57,47 @@ a {
 
 .containq {
     display: flex;
-}
 
+}
+ .quote {
+     display: flex;
+     font-size: 35px;
+ }
+ .boxb {
+     display: flex;
+     background-color: #DBBCB3;
+     justify-content: space-around;
+     align-content: center;
+     padding: 10px;
+     border: 2px transparent;
+     margin: 40px;
+ }
+
+ .boxtext {
+     display: flex;
+     text-align: center;
+     width: 75%;
+     align-items: center;
+ }
+
+ .shopn {
+     display: flex;
+     height: 25%;
+     align-self: center;
+ }
+
+ .shop {
+     background-color: transparent;
+     border-color: white;
+     border-radius: 10px;  
+     display: flex;
+    }
+  
+
+ .footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+     width: 100%;
+ }
