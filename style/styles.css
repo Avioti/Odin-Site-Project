@@ -1,9 +1,8 @@
 /*STYLES*/
 
 body {
-    background-color: #261E1B;
-    box-sizing: border-box;
-    margin: 50;
+    background: black;
+    margin: auto;
 }
 
 
@@ -11,6 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: black;
 }
 
 .ht {
@@ -23,9 +23,6 @@ body {
     text-decoration: none;
     display: flex;
     gap: 24px;
-    
-
-
 }
 
 a {
@@ -36,41 +33,82 @@ a {
 .latestg {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    background: black;
+    padding: 100px;
+}
+.latest {
+    font-size: 40px;
+    color: #C4DDEB;
+    margin: 0;
 }
 
 .latep {
     text-align: start;
     align-self: flex-start;
+    color: #C4DDEB;
 }
+ .btn {
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: flex;
+    background-image: linear-gradient(to right, #292929 0%, #7c7c7c  51%, #727266  100%)
+
+ }
 
 
 .top {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 0;
+    background: white;
 }
 
 .Albums {
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
+    padding: 150px;
+    padding-top: 0;
+    
+    background: white;
 }
 
-.containq {
-    display: flex;
-
+.row {
+    flex: 33.33%;
+    padding: 5px;
 }
+
  .quote {
      display: flex;
      font-size: 35px;
  }
+
+ .containq {
+    display: flex;
+    padding: 60px;
+    background: rgb(15,56,54);
+background: radial-gradient(circle, rgba(15,56,54,1) 0%, rgba(23,23,23,1) 100%);
+
+ }
  .boxb {
      display: flex;
-     background-color: #DBBCB3;
+     background: rgb(23,23,23);
+    background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(15,56,54,1) 100%);
+     background-position: center;
+     background-size: contain;
      justify-content: space-around;
      align-content: center;
      padding: 10px;
      border: 2px transparent;
      margin: 40px;
+     border-radius: 5px;
  }
 
  .boxtext {
@@ -78,6 +116,11 @@ a {
      text-align: center;
      width: 75%;
      align-items: center;
+     color: #C4DDEB;
+ }
+
+ .containb {
+     padding: 60px; 
  }
 
  .shopn {
@@ -87,10 +130,16 @@ a {
  }
 
  .shop {
-     background-color: transparent;
-     border-color: white;
-     border-radius: 10px;  
-     display: flex;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: flex;
+    background-image: linear-gradient(to right, #292929 0%, #7c7c7c  51%, #727266  100%)
     }
   
 
@@ -101,3 +150,19 @@ a {
      background-color: white;
      width: 100%;
  }
+
+
+
+  .shop:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+
+  }
+ 
